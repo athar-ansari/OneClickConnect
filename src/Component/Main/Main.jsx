@@ -4,10 +4,40 @@ import { motion } from 'framer-motion';
 const Main = () => {
   const links = [
     {
-      url: "",
+      url: "https://www.atharansari.me/",
       imgSrc:
-        "",
+        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
       text: " PORTFOLIO ",
+    },
+    {
+      url: "https://www.linkedin.com/in/athar--ansari/",
+      imgSrc:
+        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      text: " LINKEDIN ",
+    },
+    {
+      url: "https://github.com/athar-ansari/",
+      imgSrc:
+        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      text: " GITHUB ",
+    },
+    {
+      url: "https://www.instagram.com/_atharansari_/",
+      imgSrc:
+        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      text: " INSTAGRAM ",
+    },
+    {
+      url: "https://www.facebook.com/mdathar.ansari.547/",
+      imgSrc:
+        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      text: " FACEBOOK ",
+    },
+    {
+      url: "https://twitter.com/athar__ansari/",
+      imgSrc:
+        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      text: " TWITTER ",
     },
     // your links here...
   ];
@@ -17,7 +47,7 @@ const Main = () => {
       <main>
         <header className="">
           <h1 className="text-center text-5xl py-5 font-bold">
-            One Link For{" "}
+            One Link For
             <span className="text-indigo-500 italic font-extrabold">
               Everything
             </span>
@@ -26,7 +56,7 @@ const Main = () => {
         <div className="flex mx-auto w-full justify-center mt-2">
           <img
             className="rounded-full"
-            src=""
+            src="https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d"
             alt=""
             width={100}
             height={100}
