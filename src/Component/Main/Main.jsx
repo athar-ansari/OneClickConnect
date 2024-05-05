@@ -1,68 +1,82 @@
 import React from "react";
 import { motion } from 'framer-motion';
 
+// IMAGES
+import profile from "../../Static/Images/profile.jpg";
+import portfolio from "../../Static/Images/portfolio.png";
+import linkedin from "../../Static/Images/linkedin.png";
+import github from  "../../Static/Images/github.png";
+import instagram from "../../Static/Images/instagram.png";
+import facebook from "../../Static/Images/facebook.png";
+import twitter from  "../../Static/Images/twitter.png";
+import Curriculum from  "../../Static/Images/Curriculum.png";
+
+
 const Main = () => {
   const links = [
     {
       url: "https://www.atharansari.me/",
-      imgSrc:
-        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      imgSrc:portfolio,
       text: " PORTFOLIO ",
     },
     {
-      url: "https://www.linkedin.com/in/athar--ansari/",
+      url: "https://drive.google.com/uc?export=download&id=1aW_KnRmS87bCik91FPbH5ovrYdICqCyL",
       imgSrc:
-        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      Curriculum ,
+      text: " CV ",
+    },
+    {
+      url: "https://www.linkedin.com/in/athar--ansari/",
+      imgSrc: linkedin ,
       text: " LINKEDIN ",
     },
     {
       url: "https://github.com/athar-ansari/",
-      imgSrc:
-        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      imgSrc: github ,
       text: " GITHUB ",
     },
     {
       url: "https://www.instagram.com/_atharansari_/",
-      imgSrc:
-        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+      imgSrc: instagram,
       text: " INSTAGRAM ",
     },
     {
       url: "https://www.facebook.com/mdathar.ansari.547/",
       imgSrc:
-        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+        facebook ,
       text: " FACEBOOK ",
     },
     {
       url: "https://twitter.com/athar__ansari/",
       imgSrc:
-        "https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d",
+        twitter ,
       text: " TWITTER ",
     },
+    
     // your links here...
   ];
 
   return (
     <>
-      <main>
-        <header className="">
-          <h1 className="text-center text-5xl py-5 font-bold">
-            One Link For
-            <span className="text-indigo-500 italic font-extrabold">
-              Everything
+      <main className="overflow-hidden">
+        <header >
+          <h1 className="text-center text-5xl mt-5  font-bold font-serif italic">
+            One Link For {""}
+            <span className="text-indigo-500  font-extrabold font-sans">
+               Everything
             </span>
           </h1>
         </header>
-        <div className="flex mx-auto w-full justify-center mt-2">
+        <div className="flex mx-auto w-full justify-center mt-4">
           <img
             className="rounded-full"
-            src="https://github.com/athar-ansari/LinkTree/assets/118714083/2704b162-6831-4c38-8239-a9766e7d144d"
-            alt=""
-            width={100}
-            height={100}
+            src={profile}
+            alt="Profile"
+            width={85}
+            height={85}
           />
         </div>
-        <h3 className="text-center py-2 font-extrabold italic">@athar</h3>
+        <h3 className="text-center mt-2 font-extrabold italic">@athar</h3>
         <data>
           <div className="flex flex-col justify-center max-w-7xl m-auto my-4 md:my-10 w-full md:w-2/5">
             {links.map((link, index) => (
@@ -78,7 +92,7 @@ const Main = () => {
                     href={link.url}
                   >
                     <img
-                      className="bg-white rounded-xl p-1 w-11 mr-5"
+                      className="bg-white rounded-xl p-1 w-10 mr-5"
                       src={link.imgSrc}
                       alt=""
                     />
