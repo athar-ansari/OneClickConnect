@@ -72,7 +72,7 @@ const Main = () => {
             height={85}
           />
         </div>
-        <h3 className="text-center lg:mt-2 md:mt-3 xs:mt-4 font-extrabold italic">
+        <h3 className="text-center lg:mt-2 md:mt-3 xs:mt-3 font-extrabold italic">
           @athar
         </h3>
         <data>
