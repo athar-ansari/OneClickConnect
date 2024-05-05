@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from 'framer-motion';
 
 // IMAGES
-import profile from "../../Static/Images/profiles.jpg";
+import profile from "../../Static/Images/profilee.jpg";
 import portfolio from "../../Static/Images/portfolio.png";
 import linkedin from "../../Static/Images/linkedin.png";
 import github from  "../../Static/Images/github.png";
