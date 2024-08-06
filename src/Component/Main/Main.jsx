@@ -19,7 +19,7 @@ const Main = () => {
       text: " PORTFOLIO ",
     },
     {
-      url: "https://drive.google.com/uc?export=download&id=1aW_KnRmS87bCik91FPbH5ovrYdICqCyL",
+      url: "https://drive.google.com/uc?export=download&id=1G9BcsdobzToh3-1yHN6YmqK3zxHnmfmQ",
       imgSrc: Curriculum,
       text: " CV ",
     },
@@ -39,7 +39,7 @@ const Main = () => {
       text: " INSTAGRAM ",
     },
     {
-      url: "https://www.facebook.com/mdathar.ansari.547/",
+      url: "https://www.facebook.com/atharransarii/",
       imgSrc: facebook,
       text: " FACEBOOK ",
     },
